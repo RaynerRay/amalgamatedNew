@@ -7,7 +7,7 @@ const Project = (props) => {
   const params = useParams();
   const id = params.id;
 
-  const thisProduct = list.find((prod) => prod.id == id);
+  const thisProduct = list.find((prod) => prod.id === Number(id));
   const [show, setShow] = useState(false);
 
   return (
