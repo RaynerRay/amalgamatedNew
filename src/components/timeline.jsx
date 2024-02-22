@@ -14,7 +14,7 @@ const timeline = () => {
       </button>
       
       </Link>
-      <img src="../images/potato-farm.png" style={{height:300, width:800}}></img>
+      <img src="../images/potato-farm.png" style={{height:300, width:800}} alt="potato"></img>
       <h4 className=" text-xl font-semibold mb-4">
             Agri Experts Farm{" "}
           </h4>

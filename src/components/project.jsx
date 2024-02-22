@@ -9,7 +9,6 @@ const Project = (props) => {
 
   const thisProduct = list.find((prod) => prod.id == id);
   const [show, setShow] = useState(false);
-  const [show2, setShow2] = useState(false);
 
   return (
     <div>
