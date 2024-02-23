@@ -187,7 +187,7 @@ const Project = (props) => {
 								"
                     aria-label="show or hide"
                   >
-                    buy
+                    Invest
                   </button>
                 </div>
               </div>
@@ -208,7 +208,7 @@ const Project = (props) => {
 								"
                     aria-label="show or hide"
                   >
-                    buy
+                    Invest
                   </button>
                 </div>
               </div>
@@ -229,7 +229,7 @@ const Project = (props) => {
 								"
                     aria-label="show or hide"
                   >
-                    buy
+                    Invest
                   </button>
                 </div>
               </div>
@@ -244,7 +244,7 @@ const Project = (props) => {
                 <img src="../images/onemoney.jpg" style={{height:40, width:300}} alt="" />
                 </div>
                 <div className="m-auto">
-                <img src="../images/innbucks.png" alt="" />
+                <img src="../images/innbucks.png" alt="innbucks" />
                 </div>
               </div>
             </div>
