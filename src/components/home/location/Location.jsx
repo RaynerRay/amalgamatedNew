@@ -25,7 +25,7 @@ const Location = () => {
                 </div>
                 <p className="pt-2">Name: <span className="font-bold">{item.name}</span></p>
                 <p >Location: <span className="font-bold">{item.Villas}</span></p>
-                <p >Price: <span className="font-bold">{item.Offices}</span></p>
+                <p >Price: $<span className="font-bold">{item.Offices}</span></p>
               </div>
               
               </>
