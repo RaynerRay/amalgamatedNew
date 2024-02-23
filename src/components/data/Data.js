@@ -19,7 +19,10 @@ export const nav = [
     
     path: "/project",
   },
-  
+  {
+    text: "register",
+    path: "/register",
+  },
   {
     text: "contact",
     path: "/contact",
@@ -139,7 +142,7 @@ export const location = [
     Villas: "1 Hectare",
     Apartments: "Irrigation",
     Offices: "150/month",
-    cover: "./images/potato.png",
+    cover: "./images/land3.jpg",
   },
   {
     id: 2,
@@ -147,7 +150,7 @@ export const location = [
     Villas: "2 Hectares",
     Apartments: "Irrigation",
     Offices: "200/month",
-    cover: "./images/strawberries.png",
+    cover: "./images/land2.jpg",
   },
   {
     id: 3,
@@ -155,7 +158,7 @@ export const location = [
     Villas: "5 Hectares",
     Apartments: " Irrigation",
     Offices: "400/month",
-    cover: "./images/blueberry.jpg",
+    cover: "./images/land3.jpg",
   },
   // {
   //   id: 4,

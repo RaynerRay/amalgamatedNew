@@ -10,9 +10,10 @@ const Location = () => {
         <div className='container'>
           <Heading title='Rent A Farm' subtitle='Want To Farm Yourself. Browse Our List Of Verified Farmlands Available For Renting' />
 
-          <div className='content grid3 mtop'>
+          <div className='content grid3 mtop mb-2'>
             {location.map((item, index) => (
-              <div className='box' key={index}>
+              <>
+              <div className='box ' key={index}>
                 <img src={item.cover} alt='' />
                 <div className='overlay'>
                   <h5>{item.name}</h5>
@@ -22,7 +23,12 @@ const Location = () => {
                     <label>{item.Apartments}</label>
                   </p>
                 </div>
+                <p className="pt-2">Name: <span className="font-bold">{item.name}</span></p>
+                <p >Location: <span className="font-bold">{item.Villas}</span></p>
+                <p >Price: <span className="font-bold">{item.Offices}</span></p>
               </div>
+              
+              </>
             ))}
           </div>
         </div>

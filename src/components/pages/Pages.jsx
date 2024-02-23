@@ -10,6 +10,7 @@ import Services from "../services/Services"
 import Contact from "../contact/Contact"
 import Project from "../project"
 import timeline from "../timeline"
+import register from "../register"
 
 const Pages = () => {
   return (
@@ -25,6 +26,7 @@ const Pages = () => {
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/project/:id' component={Project} />
           <Route exact path='/timeline' component={timeline} />
+          <Route exact path='/register' component={register} />
         </Switch>
         <Footer />
       </Router>
